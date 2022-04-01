@@ -7,7 +7,7 @@ import InputSelectComparison from './InputSelectComparison';
 
 function Filters() {
   return (
-    <section>
+    <section className="filter-planets">
       <InputFilter />
       <InputSelectColumn />
       <InputSelectComparison />

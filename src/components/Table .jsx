@@ -5,7 +5,7 @@ function Table() {
   const { filteredPlanets } = useContext(PlanetsContext);
 
   return (
-    <table>
+    <table className="table">
       <thead>
         <tr>
           <th>Name</th>
