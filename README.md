@@ -28,9 +28,10 @@ Desenvolvi uma lista com filtros de planetas do universo de Star Wars usando **C
   
 2. Entre no diretório que acabou de criar e depois clone o projeto:
   * `cd projetos-analuisa`
-  * `git clone projeto`
+  * `git clone git@github.com:analuisams99/project-starwars-planets-search.git`
 
 3. Acesse o diretório do projeto e depois utilize o comando npm install para instalar todas as dependências necessárias:
+    * `cd project-starwars-planets-search`
     * `npm install`
   * Inicialize o projeto:
     * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
