@@ -3,7 +3,7 @@
 
 ---
 
-# Habilidades
+## Habilidades
 
 Nesse projeto utilizei:
 
@@ -21,24 +21,25 @@ Desenvolvi uma lista com filtros de planetas do universo de Star Wars usando **C
 
 ---
 
-# Instruções para instalação/utilização do projeto localmente:
+## Instruções para instalação/utilização do projeto localmente:
 
 1. Abra o terminal e crie um diretório no local de sua preferência com o comando mkdir:
-  * `mkdir projetos-analuisa`
+    * `mkdir projetos-analuisa`
   
 2. Entre no diretório que acabou de criar e depois clone o projeto:
-  * `cd projetos-analuisa`
-  * `git clone git@github.com:analuisams99/project-starwars-planets-search.git`
+    * `cd projetos-analuisa`
+    * `git clone git@github.com:analuisams99/project-starwars-planets-search.git`
 
 3. Acesse o diretório do projeto e depois utilize o comando npm install para instalar todas as dependências necessárias:
     * `cd project-starwars-planets-search`
     * `npm install`
   * Inicialize o projeto:
-    * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
-    * caso uma nova não abra, acesse o projeto via browser, no caminho http://localhost:3000
+    * `npm start` (uma nova página deve abrir no seu navegador)
+    * (Caso uma nova não abra, acesse o projeto via browser, no caminho http://localhost:3000 )
 
+---
 
-# Requisitos do projeto
+## Requisitos realizados neste projeto
 
 ### 1 - Faça uma requisição para o endpoint `/planets` da API de Star Wars e preencha uma tabela com os dados retornados, com exceção dos da coluna `residents`
 
@@ -88,3 +89,5 @@ Caso um filtro seja totalmente preenchido, um novo filtro de valores numéricos 
 Por exemplo: O primeiro filtro tem as seguintes seleções: `population | maior que | 100000`. Um segundo filtro deve aparecer após essas seleções serem todas feitas e, no primeiro dropdown deste segundo filtro, a opção `population` deve estar ausente. 
 
 ---
+
+Projeto da Trybe realizado por Ana Luisa ( Eu :D ).
