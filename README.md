@@ -38,6 +38,13 @@ Nesse projeto utilizei:
 
 ---
 
+<div align="center">
+   <h4 align="left">Um gostinho de como ficou: </h4>
+   <img align="center" target=blank alt="Imagem de planetas de StarWars" src="./public/tela.png"/>
+</div>
+
+---
+
 May the force 💪 be with you.
 
 Projeto realizado por Ana Luisa Marques Simões.
