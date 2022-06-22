@@ -13,9 +13,9 @@ function PlanetsProvider({ children }) {
   };
 
   const INITIAL_NUMSTATE = {
-    column: '',
-    comparison: '',
-    value: '0',
+    column: 'population',
+    comparison: 'maior que',
+    value: '',
   };
 
   const [planets, setPlanets] = useState([]);

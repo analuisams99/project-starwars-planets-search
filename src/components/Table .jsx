@@ -3,6 +3,11 @@ import PlanetsContext from '../context/PlanetsContext';
 
 function Table() {
   const { filteredPlanets } = useContext(PlanetsContext);
+  
+  const editedFilms = (films) => {
+    const result = films.map(film => film.replace(/\D/g, '').split(''))
+    return result.join(', ');
+  }
 
   return (
     <table className="table">
@@ -49,7 +54,7 @@ function Table() {
             <td>{terrain}</td>
             <td>{SURFACE_WATER}</td>
             <td>{population}</td>
-            <td>{films}</td>
+            <td>{editedFilms(films)}</td>
             <td>{created}</td>
             <td>{edited}</td>
             <td>{url}</td>
